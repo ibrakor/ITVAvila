@@ -10,81 +10,54 @@ public class Moto implements Vehiculo {
     private Date añomatriculacion;
     private Integer diametroRuedas;
 
+
+    @Override
     public String getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
+        return null;
     }
 
     @Override
-    public void getMatricula(String matricula) {
-
-    }
-
     public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
+        return null;
     }
 
     @Override
-    public void getMarca(String marca) {
-
-    }
-
     public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+        return null;
     }
 
     @Override
-    public void getModelo(String modelo) {
-
-    }
-
     public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
+        return null;
     }
 
     @Override
-    public void getColor(String color) {
-
+    public Date getAñoMatriculacion() {
+        return null;
     }
 
     @Override
-    public void setAñoMatriculacion(String añomatriculacion) {
-
+    public String setMatricula() {
+        return null;
     }
 
     @Override
-    public void getAñoMatriculacion(String añomatriculacion) {
-
+    public String setMarca() {
+        return null;
     }
 
-    public Date getAñomatriculacion() {
-        return añomatriculacion;
+    @Override
+    public String setModelo() {
+        return null;
     }
 
-    public void setAñomatriculacion(Date añomatriculacion) {
-        this.añomatriculacion = añomatriculacion;
+    @Override
+    public String setColor() {
+        return null;
     }
 
-    public Integer getDiametroRuedas() {
-        return diametroRuedas;
-    }
-
-    public void setDiametroRuedas(Integer diametroRuedas) {
-        this.diametroRuedas = diametroRuedas;
+    @Override
+    public Date setAñoMatriculacion() {
+        return null;
     }
 }

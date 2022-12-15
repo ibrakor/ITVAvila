@@ -18,7 +18,7 @@ public class VehiculosDataStore {
         dataStore.remove(codigo);
     }
 
-    public void search(String codigo) {
+    public Vehiculo search(String codigo) {
         return dataStore.get(codigo);
     }
 

@@ -11,90 +11,54 @@ public class Camion implements Vehiculo {
     private String tara;
     private String longitud;
 
+
+    @Override
     public String getMatricula() {
-        return matricula;
+        return null;
     }
 
     @Override
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
-    @Override
-    public void getMatricula(String matricula) {
-
-    }
-
     public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
+        return null;
     }
 
     @Override
-    public void getMarca(String marca) {
-
-    }
-
     public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+        return null;
     }
 
     @Override
-    public void getModelo(String modelo) {
-
-    }
-
     public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
+        return null;
     }
 
     @Override
-    public void getColor(String color) {
-
+    public Date getAñoMatriculacion() {
+        return null;
     }
 
     @Override
-    public void setAñoMatriculacion(String añomatriculacion) {
-
+    public String setMatricula() {
+        return null;
     }
 
     @Override
-    public void getAñoMatriculacion(String añomatriculacion) {
-
+    public String setMarca() {
+        return null;
     }
 
-    public Date getAñomatriculacion() {
-        return añomatriculacion;
+    @Override
+    public String setModelo() {
+        return null;
     }
 
-    public void setAñomatriculacion(Date añomatriculacion) {
-        this.añomatriculacion = añomatriculacion;
+    @Override
+    public String setColor() {
+        return null;
     }
 
-    public String getTara() {
-        return tara;
-    }
-
-    public void setTara(String tara) {
-        this.tara = tara;
-    }
-
-    public String getLongitud() {
-        return longitud;
-    }
-
-    public void setLongitud(String longitud) {
-        this.longitud = longitud;
+    @Override
+    public Date setAñoMatriculacion() {
+        return null;
     }
 }
