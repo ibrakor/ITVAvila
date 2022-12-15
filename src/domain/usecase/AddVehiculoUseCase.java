@@ -4,9 +4,9 @@ import data.VehiculosDataStore;
 import domain.models.Vehiculo;
 
 public class AddVehiculoUseCase {
-    private VehiculosDataStore dataStore = VehiculosDataStore.getInstance();
+    private static VehiculosDataStore dataStore = VehiculosDataStore.getInstance();
 
-    public void execute(Vehiculo vehiculo) {
+    public static void execute(Vehiculo vehiculo) {
         dataStore.save(vehiculo);
     }
 }

@@ -8,7 +8,7 @@ public class Coche implements Vehiculo {
     private String modelo;
     private String color;
     private Date añomatriculacion;
-    private Integer npuertas;
+    private Integer nPuertas;
 
 
     @Override
@@ -38,11 +38,19 @@ public class Coche implements Vehiculo {
 
     @Override
     public String setMatricula() {
-        return matricula;
+        return null;
     }
 
     @Override
     public String setMarca() {
+        return null;
+    }
+
+    public String setMatricula(String s) {
+        return matricula;
+    }
+
+    public String setMarca(String bmw) {
         return marca;
     }
 
@@ -53,11 +61,14 @@ public class Coche implements Vehiculo {
 
     @Override
     public String setColor() {
+        return null;
+    }
+
+    public String setColor(String negro) {
         return color;
     }
 
-    @Override
-    public Date setAñoMatriculacion() {
+    public Date setAñoMatriculacion(String s) {
         return añomatriculacion;
     }
 }

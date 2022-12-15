@@ -14,17 +14,10 @@ public class VehiculosDataStore {
         dataStore.put(vehiculo.getMatricula(), vehiculo);
     }
 
-    public void delete(String codigo) {
-        dataStore.remove(codigo);
-    }
-
     public Vehiculo search(String codigo) {
         return dataStore.get(codigo);
     }
 
-    public void modificar(Vehiculo vehiculo) {
-        dataStore.put(vehiculo.getMatricula(), vehiculo);
-    }
 
     public static VehiculosDataStore getInstance() {
         if (instance == null) {
