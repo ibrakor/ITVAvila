@@ -7,7 +7,7 @@ public class Inspeccion {
     private Date fechaInspeccion;
     private Boolean resultadoInspeccion;
 
-    public String getCodInspeccion() {
+    public Integer getCodInspeccion() {
         return codInspeccion;
     }
 

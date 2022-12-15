@@ -3,6 +3,7 @@ package presentation;
 import domain.models.Coche;
 import domain.models.Inspeccion;
 import domain.models.Vehiculo;
+import domain.usecase.AddInspeccionUseCase;
 import domain.usecase.AddVehiculoUseCase;
 
 import java.util.Date;
@@ -21,6 +22,8 @@ public class Main {
         inspeccion1.setCodInspeccion(1);
         inspeccion1.setFechaInspeccion(new Date());
         inspeccion1.setResultadoInspeccion(Boolean.TRUE);
+
+        AddInspeccionUseCase.execute(inspeccion1);
 
 
     }
