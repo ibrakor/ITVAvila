@@ -7,7 +7,7 @@ public class Coche implements Vehiculo {
     private String marca;
     private String modelo;
     private String color;
-    private Date añomatriculacion;
+    private String anomatriculacion;
     private Integer nPuertas;
 
     @Override
@@ -45,12 +45,12 @@ public class Coche implements Vehiculo {
         this.color = color;
     }
 
-    public Date getAñomatriculacion() {
-        return añomatriculacion;
+    public Date getAnomatriculacion() {
+        return anomatriculacion;
     }
 
-    public void setAñomatriculacion(Date añomatriculacion) {
-        this.añomatriculacion = añomatriculacion;
+    public void setAnomatriculacion(Date anomatriculacion) {
+        this.anomatriculacion = anomatriculacion;
     }
 
     public Integer getnPuertas() {

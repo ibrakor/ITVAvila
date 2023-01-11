@@ -7,7 +7,7 @@ public class Camion implements Vehiculo {
     private String marca;
     private String modelo;
     private String color;
-    private Date anomatriculacion;
+    private String anomatriculacion;
     private String tara;
     private String longitud;
 
@@ -46,11 +46,11 @@ public class Camion implements Vehiculo {
         this.color = color;
     }
 
-    public Date getAnomatriculacion() {
+    public String getAnomatriculacion() {
         return anomatriculacion;
     }
 
-    public void setAnomatriculacion(Date anomatriculacion) {
+    public void setAnomatriculacion(String anomatriculacion) {
         this.anomatriculacion = anomatriculacion;
     }
 
