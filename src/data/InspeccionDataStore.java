@@ -19,6 +19,10 @@ public class InspeccionDataStore {
         return dataStore.get(codigo);
     }
 
+    public void delete(String codigo) { dataStore.remove(codigo); }
+
+    public void modificar(Inspeccion inspeccion) { dataStore.put(inspeccion.getCodInspeccion(), inspeccion); }
+
 
     public static InspeccionDataStore getInstance() {
         if (instance == null) {
