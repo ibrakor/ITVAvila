@@ -45,11 +45,11 @@ public class Coche implements Vehiculo {
         this.color = color;
     }
 
-    public Date getAnomatriculacion() {
+    public String getAnomatriculacion() {
         return anomatriculacion;
     }
 
-    public void setAnomatriculacion(Date anomatriculacion) {
+    public void setAnomatriculacion(String anomatriculacion) {
         this.anomatriculacion = anomatriculacion;
     }
 

@@ -29,6 +29,6 @@ public class Main {
         coche.setColor("Amarillo ");
         coche.setAnomatriculacion("2008");
         coche.setMatricula("0000-GYU");
-        coche.setNumPuertas(5);
+        coche.setnPuertas(5);
     }
 }
