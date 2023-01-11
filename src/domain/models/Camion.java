@@ -7,58 +7,66 @@ public class Camion implements Vehiculo {
     private String marca;
     private String modelo;
     private String color;
-    private Date añomatriculacion;
+    private Date anomatriculacion;
     private String tara;
     private String longitud;
 
-
     @Override
     public String getMatricula() {
-        return null;
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     @Override
     public String getMarca() {
-        return null;
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     @Override
     public String getModelo() {
-        return null;
+        return modelo;
     }
 
-    @Override
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public String getColor() {
-        return null;
+        return color;
     }
 
-    @Override
-    public Date getAñoMatriculacion() {
-        return null;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    @Override
-    public String setMatricula() {
-        return null;
+    public Date getAnomatriculacion() {
+        return anomatriculacion;
     }
 
-    @Override
-    public String setMarca() {
-        return null;
+    public void setAnomatriculacion(Date anomatriculacion) {
+        this.anomatriculacion = anomatriculacion;
     }
 
-    @Override
-    public String setModelo() {
-        return null;
+    public String getTara() {
+        return tara;
     }
 
-    @Override
-    public String setColor() {
-        return null;
+    public void setTara(String tara) {
+        this.tara = tara;
     }
 
-    @Override
-    public Date setAñoMatriculacion() {
-        return null;
+    public String getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(String longitud) {
+        this.longitud = longitud;
     }
 }

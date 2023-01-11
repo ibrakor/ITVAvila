@@ -10,54 +10,54 @@ public class Moto implements Vehiculo {
     private Date añomatriculacion;
     private Integer diametroRuedas;
 
-
     @Override
     public String getMatricula() {
-        return null;
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     @Override
     public String getMarca() {
-        return null;
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     @Override
     public String getModelo() {
-        return null;
+        return modelo;
     }
 
-    @Override
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public String getColor() {
-        return null;
+        return color;
     }
 
-    @Override
-    public Date getAñoMatriculacion() {
-        return null;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    @Override
-    public String setMatricula() {
-        return null;
+    public Date getAñomatriculacion() {
+        return añomatriculacion;
     }
 
-    @Override
-    public String setMarca() {
-        return null;
+    public void setAñomatriculacion(Date añomatriculacion) {
+        this.añomatriculacion = añomatriculacion;
     }
 
-    @Override
-    public String setModelo() {
-        return null;
+    public Integer getDiametroRuedas() {
+        return diametroRuedas;
     }
 
-    @Override
-    public String setColor() {
-        return null;
-    }
-
-    @Override
-    public Date setAñoMatriculacion() {
-        return null;
+    public void setDiametroRuedas(Integer diametroRuedas) {
+        this.diametroRuedas = diametroRuedas;
     }
 }

@@ -10,10 +10,13 @@ public class Coche implements Vehiculo {
     private Date añomatriculacion;
     private Integer nPuertas;
 
-
     @Override
     public String getMatricula() {
         return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     @Override
@@ -21,54 +24,40 @@ public class Coche implements Vehiculo {
         return marca;
     }
 
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
     @Override
     public String getModelo() {
         return modelo;
     }
 
-    @Override
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public String getColor() {
         return color;
     }
 
-    @Override
-    public Date getAñoMatriculacion() {
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Date getAñomatriculacion() {
         return añomatriculacion;
     }
 
-    @Override
-    public String setMatricula() {
-        return null;
+    public void setAñomatriculacion(Date añomatriculacion) {
+        this.añomatriculacion = añomatriculacion;
     }
 
-    @Override
-    public String setMarca() {
-        return null;
+    public Integer getnPuertas() {
+        return nPuertas;
     }
 
-    public String setMatricula(String s) {
-        return matricula;
-    }
-
-    public String setMarca(String bmw) {
-        return marca;
-    }
-
-    @Override
-    public String setModelo() {
-        return modelo;
-    }
-
-    @Override
-    public String setColor() {
-        return null;
-    }
-
-    public String setColor(String negro) {
-        return color;
-    }
-
-    public Date setAñoMatriculacion(String s) {
-        return añomatriculacion;
+    public void setnPuertas(Integer nPuertas) {
+        this.nPuertas = nPuertas;
     }
 }

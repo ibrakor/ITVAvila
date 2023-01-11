@@ -3,7 +3,7 @@ package domain.models;
 import java.util.Date;
 
 public class Inspeccion {
-    private Integer codInspeccion;
+    private String codInspeccion;
     private Date fechaInspeccion;
     private Boolean resultadoInspeccion;
 
@@ -11,7 +11,7 @@ public class Inspeccion {
         return codInspeccion;
     }
 
-    public void setCodInspeccion(Integer codInspeccion) {
+    public void setCodInspeccion(String codInspeccion) {
         this.codInspeccion = codInspeccion;
     }
 
