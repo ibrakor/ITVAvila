@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Inspeccion {
     private String codInspeccion;
-    private Date fechaInspeccion;
+    private String fechaInspeccion;
     private Boolean resultadoInspeccion;
     private Propietario propietario;
     private Vehiculo vehiculo;
@@ -17,11 +17,11 @@ public class Inspeccion {
         this.codInspeccion = codInspeccion;
     }
 
-    public Date getFechaInspeccion() {
+    public String getFechaInspeccion() {
         return fechaInspeccion;
     }
 
-    public void setFechaInspeccion(Date fechaInspeccion) {
+    public void setFechaInspeccion(String fechaInspeccion) {
         this.fechaInspeccion = fechaInspeccion;
     }
 
